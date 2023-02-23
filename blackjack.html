@@ -1,0 +1,90 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+    
+        <title>blackjack</title>
+    <link rel="stylesheet" href="blackjack.css">
+
+
+
+    </head>
+
+    <body>
+            
+              <div class="gameinfo"   >  
+                
+            <img   class="thoughts"   src="blackicons/witla.png" alt="">
+            
+            <p  class="ruls" >  Hello this is my Blackjack game 😏. Blackjack hands are scored by their point total. The hand with the highest total wins as long as it doesn't exceed 21; a hand with a higher total than 21 is said to bust. Cards 2 through 10 are worth their face value, and face cards (jack, queen, king) are also worth 10. An ace's value is 11 unless this would cause the player to bust, in which case it is worth 1. A hand in which an ace's value is counted as 11 is called a soft hand, because it cannot 
+                be busted if the player draws another card.  If you want to start the game press 'START GAME'        </p>
+            
+            
+            </div>
+    
+        <div class="board-div" ><img class="board" src="blackicons/360_F_325384191_sg1D5lYWfRedGQsBm8xIHnsSAUUUVxGE.jpg" alt="">
+
+
+           
+
+            <div  class="nameofthegame" >Blackjack</div>
+            <p id="message-el"  class="firstline" > Want  to  play  a  round?      </p>
+            <p class="cards" id="cards-el" >Cards:</p>
+            <P  id="sumel" class="sum" >  Sum:</P>
+
+          
+            
+            <button class="start" onclick="startGame()  "   >
+
+            START GAME
+
+            </button>
+            
+            <button class="newcards" onclick="newCards()"  >
+
+                NEW CARDS
+    
+                </button>
+
+
+            </button>
+            
+            <button class="startnewgame"    onclick="  history.go(0),  newGame()" > 
+                <!-- ეს კარგად გაიაზრე აქ როგორ 
+                    იმუშავა history.go(0)-მა და მისმა 
+                    ადგილმდებარეობის შეცვლამ 
+                    (ფუნქციაზე წინ როცა დააყენე ჯერ 
+                    გვერდი დაარეფრეშა და მერე ფუნქციები უპრობლემოდ გაეშვა)
+                     და ისისც რომ არსებობს (-1 )-->
+            
+
+                NEW GAME
+    
+                </button>
+             
+                
+
+           <div class="playerinfo" id="player-el"  >
+
+            
+           </div>
+
+
+
+
+        </div>
+
+
+        
+
+
+
+
+        <script src="blackjack.js" ></script>
+
+    </body>
+
+
+
+
+    </html>

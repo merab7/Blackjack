@@ -1,0 +1,245 @@
+body{
+
+display: flex;
+justify-content: center;
+text-align: center;
+background-color:#021331;
+
+
+}
+
+
+
+
+.backphoto{
+
+width: 100%;
+
+
+
+
+}
+.board-div{
+
+display: flex;
+justify-content: center;
+width: 750px;
+height: 600px;
+margin-top: 100px;
+border-radius: 12px;
+
+}
+
+.board{
+
+width: 100%;
+border-radius: 18px;
+box-shadow: 1px 2px 6px black;
+}
+
+.nameofthegame{
+
+
+position: absolute;
+z-index: 101;
+margin-left: 30px;
+margin-top: 30px;
+font-size: 50px;
+color:#df9a00;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 600;
+
+}
+
+.firstline{
+
+display: flex;
+position: absolute;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+font-size: 35px;
+font-weight: bold;
+margin-top: 130px;
+
+
+
+}
+
+.cards{
+
+
+    display: flex;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 200px;
+  
+}
+
+
+.sum{
+
+
+    display: flex;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 260px;
+  
+
+
+}
+
+.start{
+    width: 200px;
+display: flex;
+position: absolute;
+background: none;
+border: none;
+border-radius: 3px;
+font-size: 25px;
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bolder;
+box-shadow:1px 1px 6px black;
+margin-top: 390px;
+transition: color 0.1s;
+cursor: pointer;
+justify-content: center;
+padding: 3px;
+border-radius: 8px;
+margin-right: 220px;
+
+}
+
+.start:active{
+
+color: #0ff70f;
+padding: 5px;
+
+
+}
+
+.newcards{
+
+
+    width: 200px;
+    display: flex;
+    position: absolute;
+    border: none;
+    background: none;
+    border-radius: 3px;
+    font-size: 25px;
+    color: rgb(66, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    box-shadow:1px 1px 6px black;
+    margin-top: 390px;
+    margin-left: 200px;
+    transition: color 0.15s;
+    cursor: pointer;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 8px;
+
+ 
+
+}
+
+.newcards:active{
+
+    color: rgb(255, 2, 2);
+    padding: 5px;
+    
+
+
+}
+
+
+.startnewgame{
+
+    width: 200px;
+    display:flex;
+    position: absolute;
+    border: none;
+    background: none;
+    border-radius: 3px;
+    font-size: 25px;
+    color:  #df9a00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    box-shadow:1px 1px 6px black;
+    margin-top: 490px;
+    margin-right: 0px;
+    transition: color 0.15s;
+    cursor: pointer;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 8px;
+
+    
+
+
+}
+
+.startnewgame:active{
+
+    color: rgb(255, 210, 10);
+    padding: 5px;
+    
+
+
+}
+
+
+
+.playerinfo{
+
+display: flex;
+position: absolute;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:  #df9a00;
+font-size: 30px;
+margin-top: 550px;
+
+
+
+
+
+}
+
+
+.gameinfo{
+
+display: flex;
+position: relative;
+width: 400px ;
+height: 425px;
+
+
+margin-top: 55px;
+
+}
+
+
+.ruls{
+
+display: flex;
+position: absolute;
+font-size: 15px;
+padding-top: 40px;
+padding-left: 55px;
+padding-right: 35px;
+color:  rgb(255, 255, 255);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+    
